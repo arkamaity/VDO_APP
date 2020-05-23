@@ -1,0 +1,6 @@
+label.Sign_in.title=Sign In
+label.Sign_in.userName=User Name/Phone Number
+label.Sign_in.password=Password
+label.Sign_in.OTP=OTP
+label.Sign_in.ErrorMessage.InvalidOTP=OTP is in valid.
+label.Sign_in.ErrorMessage.invalidLogin=Username and password does not match.
