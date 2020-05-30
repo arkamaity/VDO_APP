@@ -1,0 +1,13 @@
+
+/*.sidebar-section{
+	-fx-background-color: black;
+}
+.sidebar-section Button{
+	-fx-background-color: black;
+}*/
+.parent{
+	-fx-background-color: #fff;
+}
+.sidebar{
+	-fx-background-color: #333645;
+}
