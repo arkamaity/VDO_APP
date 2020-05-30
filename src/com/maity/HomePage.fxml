@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<HBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ScrollPane prefViewportHeight="281.0" prefViewportWidth="212.0">
+         <content>
+            <Accordion>
+              <panes>
+                  <TitledPane animated="false" layoutX="10.0" layoutY="10.0" text="%accordion.titledpane.header.contact">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                     </content>
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </TitledPane>
+                <TitledPane animated="false" text="%accordion.titledpane.header.groups">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                  </content>
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                </TitledPane>
+                <TitledPane animated="false" text="%accordion.titledpane.header.meeting">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                  </content>
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                </TitledPane>
+                  <TitledPane animated="false" layoutX="10.0" layoutY="85.0" text="%accordion.titledpane.header.myprofile">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </TitledPane>
+              </panes>
+            </Accordion>
+         </content>
+      </ScrollPane>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <TilePane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Button mnemonicParsing="false" text="Button" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Button mnemonicParsing="false" text="Button" />
+                     </children>
+                  </HBox>
+                  <Button mnemonicParsing="false" text="Button" />
+               </children>
+            </TilePane>
+         </children>
+      </HBox>
+   </children>
+</HBox>
