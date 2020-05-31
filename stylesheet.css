@@ -1,0 +1,43 @@
+.parent{
+	-fx-background-color : #ffffff;
+}
+
+.sidebar{
+	-fx-background-color : #30ACF3;
+}
+.top{
+	-fx-background-color : #E4E2E4;
+}
+
+.sidebar-btn{
+	-fx-background-color : #30ACF3;
+}
+.sidebar-btn:hover{
+	-fx-background-color : #2EA4E8;
+}
+
+.close-btn{
+	-fx-background-color : #FC5653;
+	-fx-background-radius: 100%;
+}
+.close-btn:hover{
+	-fx-background-color : red;
+	-fx-background-radius: 100%;
+}
+
+.min-btn{
+	-fx-background-color : #29CC41;
+	-fx-background-radius: 100%;
+}
+.min-btn:hover{
+	-fx-background-color : green;
+	-fx-background-radius: 100%;
+}
+.max-btn{
+	-fx-background-color : #FDBC40;
+	-fx-background-radius: 100%;
+}
+.max-btn:hover{
+	-fx-background-color : yellow;
+	-fx-background-radius: 100%;
+}

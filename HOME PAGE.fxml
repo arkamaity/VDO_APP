@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutY="30.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="570.0" prefWidth="300.0" styleClass="sidebar">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0" />
+            <HBox prefHeight="50.0" prefWidth="300.0" styleClass="sidebar-btn">
+               <children>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true" HBox.hgrow="NEVER">
+                     <image>
+                        <Image url="@round_account_circle_white_36dp.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets bottom="15.0" left="20.0" top="15.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label alignment="CENTER" text="%accordion.titledpane.header.myprofile" textFill="#c9c1c1">
+                     <font>
+                        <Font name="Arial Black" size="12.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="15.0" left="20.0" top="15.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets left="10.0" top="5.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="300.0" styleClass="sidebar-btn">
+               <children>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true" HBox.hgrow="NEVER">
+                     <image>
+                        <Image url="@round_account_circle_white_36dp.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets bottom="15.0" left="20.0" top="15.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label alignment="CENTER" text="%accordion.titledpane.header.contact" textFill="#c9c1c1">
+                     <font>
+                        <Font name="Arial Black" size="12.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" top="5.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets bottom="15.0" left="20.0" top="15.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="164.0" prefHeight="50.0" prefWidth="300.0" styleClass="sidebar-btn">
+               <children>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true" HBox.hgrow="NEVER">
+                     <image>
+                        <Image url="@round_account_circle_white_36dp.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets bottom="15.0" left="20.0" top="15.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label alignment="CENTER" text="%accordion.titledpane.header.groups" textFill="#c9c1c1">
+                     <font>
+                        <Font name="Arial Black" size="12.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" top="5.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets bottom="15.0" left="20.0" top="15.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="218.0" prefHeight="50.0" prefWidth="300.0" styleClass="sidebar-btn">
+               <children>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true" HBox.hgrow="NEVER">
+                     <image>
+                        <Image url="@round_account_circle_white_36dp.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets bottom="15.0" left="20.0" top="15.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label alignment="CENTER" text="%accordion.titledpane.header.meeting" textFill="#c9c1c1">
+                     <font>
+                        <Font name="Arial Black" size="12.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" top="5.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets bottom="15.0" left="20.0" top="15.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="300.0" layoutY="30.0" maxHeight="-Infinity" maxWidth="-Infinity" />
+      <Pane prefHeight="30.0" prefWidth="900.0" styleClass="top">
+         <children>
+            <Label layoutX="7.0" layoutY="7.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="10.0" prefWidth="10.0" styleClass="close-btn" />
+            <Label layoutX="29.0" layoutY="7.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="10.0" prefWidth="10.0" styleClass="max-btn" />
+            <Label layoutX="54.0" layoutY="7.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="10.0" prefWidth="10.0" styleClass="min-btn" />
+            <Label alignment="TOP_CENTER" layoutX="436.0" layoutY="9.0" prefHeight="17.0" prefWidth="65.0" text="Let's Meet" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
